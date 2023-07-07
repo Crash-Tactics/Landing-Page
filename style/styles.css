@@ -1,0 +1,110 @@
+body {
+    font-family: 'Roboto';
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.header-links {
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    gap: 18px;
+}
+
+ul {
+    list-style: none;
+}
+
+.hero {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-around;
+    padding: 48px;
+    flex: 1;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight:bolder;
+    color: #F9FAF8;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    color:#E5E7EB;
+    text-align: center;
+    width: 100px;
+    padding: 12px;
+    border-radius: 15px;
+}
+.hero-image {
+    background-color: gray;
+    width: 400px;
+    height: 150px;
+    flex: 1;
+    text-align: center;
+}
+
+.cards-container {
+    padding: 12px;
+}
+
+.cards-container h2 {
+    text-align: center;
+    margin: auto;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-img {
+    height: 125px;
+    width: 125px;
+    border-radius: 15px;
+    border-color: #1f2937;
+    border-width: 2px;
+    border-style: dashed;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #E5E7EB;
+}

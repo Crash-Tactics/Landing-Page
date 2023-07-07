@@ -1,0 +1,1 @@
+For this project I will be creating a landing page, putting into practice html and css, with a particular focus on using flex/flex-box for defining layout.
